@@ -20,6 +20,7 @@ class ClienteFactory extends Factory
             'nombre'=>$this->faker->name(),
             'apellido'=>$this->faker->lastName(),
             'foto'=>$this->faker->name(),
+            'fecha_nacimiento'=>$this->faker->date(),
         ];
     }
 }
